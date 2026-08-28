@@ -63,6 +63,7 @@ nav ul {
 
 li {
   padding-block: 5px;
+  font-size: light;
 }
 
 li a {
@@ -196,6 +197,30 @@ span {
 th, td {
 	padding-inline: 10px;
 }
+
+.interest-area-wrapper h1 {
+  padding-block: 20px;
+}
+
+.interest-area-content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.interest-area-description {
+  padding-inline-start: 20px;
+  padding-inline-end: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.interest-area-description ul {
+  padding-inline-start: 30px;
+}
+
+
 
 @media (max-width: 768px) {
   .service {
