@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+  <factura id="1">
+    <numeroFactura>F001</numeroFactura>
+    <fecha>20/08/2026</fecha>
+    <estado>pagada</estado>
+    <identificacionCliente>123456789</identificacionCliente>
+    <nombreCliente>Pepito Pérez</nombreCliente>
+    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
+    <telefonoCliente>55526658</telefonoCliente>
+    <detalles>
+      <servicio>
+        <descripcion>Consultoría n8n</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1000000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>100000</impuesto>
+      </servicio>
+    </detalles>
+    <pagos>
+      <pago>
+        <idPago>1</idPago>
+        <metodoPago>Tarjeta de Credito</metodoPago>
+        <estadoPago>pagado</estadoPago>
+        <fechaPago>23/08/2026</fechaPago>
+        <valorPago>1100000</valorPago>
+      </pago>
+    </pagos>
+  </factura>
+  <factura id="2">
+    <numeroFactura>F001</numeroFactura>
+    <fecha>20/08/2026</fecha>
+    <estado>pagada</estado>
+    <identificacionCliente>123456789</identificacionCliente>
+    <nombreCliente>Pepito Pérez</nombreCliente>
+    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
+    <telefonoCliente>55526658</telefonoCliente>
+    <detalles>
+      <servicio>
+        <descripcion>Consultoría n8n</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1000000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>100000</impuesto>
+      </servicio>
+    </detalles>
+    <pagos>
+      <pago>
+        <idPago>1</idPago>
+        <metodoPago>Tarjeta de Credito</metodoPago>
+        <estadoPago>pagado</estadoPago>
+        <fechaPago>23/08/2026</fechaPago>
+        <valorPago>1100000</valorPago>
+      </pago>
+    </pagos>
+  </factura>
+  <factura id="3">
+    <numeroFactura>F001</numeroFactura>
+    <fecha>20/08/2026</fecha>
+    <estado>pagada</estado>
+    <identificacionCliente>123456789</identificacionCliente>
+    <nombreCliente>Pepito Pérez</nombreCliente>
+    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
+    <telefonoCliente>55526658</telefonoCliente>
+    <detalles>
+      <servicio>
+        <descripcion>Consultoría n8n</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1000000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>100000</impuesto>
+      </servicio>
+    </detalles>
+    <pagos>
+      <pago>
+        <idPago>1</idPago>
+        <metodoPago>Tarjeta de Credito</metodoPago>
+        <estadoPago>pagado</estadoPago>
+        <fechaPago>23/08/2026</fechaPago>
+        <valorPago>1100000</valorPago>
+      </pago>
+    </pagos>
+  </factura>
+  <factura id="4">
+    <numeroFactura>F001</numeroFactura>
+    <fecha>20/08/2026</fecha>
+    <estado>pagada</estado>
+    <identificacionCliente>123456789</identificacionCliente>
+    <nombreCliente>Pepito Pérez</nombreCliente>
+    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
+    <telefonoCliente>55526658</telefonoCliente>
+    <detalles>
+      <servicio>
+        <descripcion>Consultoría n8n</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1000000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>100000</impuesto>
+      </servicio>
+    </detalles>
+    <pagos>
+      <pago>
+        <idPago>1</idPago>
+        <metodoPago>Tarjeta de Credito</metodoPago>
+        <estadoPago>pagado</estadoPago>
+        <fechaPago>23/08/2026</fechaPago>
+        <valorPago>1100000</valorPago>
+      </pago>
+    </pagos>
+  </factura>
+  <factura id="5">
+    <numeroFactura>F001</numeroFactura>
+    <fecha>20/08/2026</fecha>
+    <estado>pagada</estado>
+    <identificacionCliente>123456789</identificacionCliente>
+    <nombreCliente>Pepito Pérez</nombreCliente>
+    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
+    <telefonoCliente>55526658</telefonoCliente>
+    <detalles>
+      <servicio>
+        <descripcion>Consultoría n8n</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1000000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>100000</impuesto>
+      </servicio>
+    </detalles>
+    <pagos>
+      <pago>
+        <idPago>1</idPago>
+        <metodoPago>Tarjeta de Credito</metodoPago>
+        <estadoPago>pagado</estadoPago>
+        <fechaPago>23/08/2026</fechaPago>
+        <valorPago>1100000</valorPago>
+      </pago>
+    </pagos>
+  </factura>
+  <factura id="6">
+    <numeroFactura>F001</numeroFactura>
+    <fecha>20/08/2026</fecha>
+    <estado>pagada</estado>
+    <identificacionCliente>123456789</identificacionCliente>
+    <nombreCliente>Pepito Pérez</nombreCliente>
+    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
+    <telefonoCliente>55526658</telefonoCliente>
+    <detalles>
+      <servicio>
+        <descripcion>Consultoría n8n</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1000000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>100000</impuesto>
+      </servicio>
+    </detalles>
+    <pagos>
+      <pago>
+        <idPago>1</idPago>
+        <metodoPago>Tarjeta de Credito</metodoPago>
+        <estadoPago>pagado</estadoPago>
+        <fechaPago>23/08/2026</fechaPago>
+        <valorPago>1100000</valorPago>
+      </pago>
+    </pagos>
+  </factura>
+  <factura id="7">
+    <numeroFactura>F001</numeroFactura>
+    <fecha>20/08/2026</fecha>
+    <estado>pagada</estado>
+    <identificacionCliente>123456789</identificacionCliente>
+    <nombreCliente>Pepito Pérez</nombreCliente>
+    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
+    <telefonoCliente>55526658</telefonoCliente>
+    <detalles>
+      <servicio>
+        <descripcion>Consultoría n8n</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1000000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>100000</impuesto>
+      </servicio>
+    </detalles>
+    <pagos>
+      <pago>
+        <idPago>1</idPago>
+        <metodoPago>Tarjeta de Credito</metodoPago>
+        <estadoPago>pagado</estadoPago>
+        <fechaPago>23/08/2026</fechaPago>
+        <valorPago>1100000</valorPago>
+      </pago>
+    </pagos>
+  </factura>
+  <factura id="8">
+    <numeroFactura>F001</numeroFactura>
+    <fecha>20/08/2026</fecha>
+    <estado>pagada</estado>
+    <identificacionCliente>123456789</identificacionCliente>
+    <nombreCliente>Pepito Pérez</nombreCliente>
+    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
+    <telefonoCliente>55526658</telefonoCliente>
+    <detalles>
+      <servicio>
+        <descripcion>Consultoría n8n</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1000000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>100000</impuesto>
+      </servicio>
+    </detalles>
+    <pagos>
+      <pago>
+        <idPago>1</idPago>
+        <metodoPago>Tarjeta de Credito</metodoPago>
+        <estadoPago>pagado</estadoPago>
+        <fechaPago>23/08/2026</fechaPago>
+        <valorPago>1100000</valorPago>
+      </pago>
+    </pagos>
+  </factura>
+  <factura id="9">
+    <numeroFactura>F001</numeroFactura>
+    <fecha>20/08/2026</fecha>
+    <estado>pagada</estado>
+    <identificacionCliente>123456789</identificacionCliente>
+    <nombreCliente>Pepito Pérez</nombreCliente>
+    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
+    <telefonoCliente>55526658</telefonoCliente>
+    <detalles>
+      <servicio>
+        <descripcion>Consultoría n8n</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1000000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>100000</impuesto>
+      </servicio>
+    </detalles>
+    <pagos>
+      <pago>
+        <idPago>1</idPago>
+        <metodoPago>Tarjeta de Credito</metodoPago>
+        <estadoPago>pagado</estadoPago>
+        <fechaPago>23/08/2026</fechaPago>
+        <valorPago>1100000</valorPago>
+      </pago>
+    </pagos>
+  </factura>
+  <factura id="10">
+    <numeroFactura>F001</numeroFactura>
+    <fecha>20/08/2026</fecha>
+    <estado>pagada</estado>
+    <identificacionCliente>123456789</identificacionCliente>
+    <nombreCliente>Pepito Pérez</nombreCliente>
+    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
+    <telefonoCliente>55526658</telefonoCliente>
+    <detalles>
+      <servicio>
+        <descripcion>Consultoría n8n</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1000000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>100000</impuesto>
+      </servicio>
+    </detalles>
+    <pagos>
+      <pago>
+        <idPago>1</idPago>
+        <metodoPago>Tarjeta de Credito</metodoPago>
+        <estadoPago>pagado</estadoPago>
+        <fechaPago>23/08/2026</fechaPago>
+        <valorPago>1100000</valorPago>
+      </pago>
+    </pagos>
+  </factura>
+    
+</facturas>
