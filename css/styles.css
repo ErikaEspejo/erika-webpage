@@ -208,6 +208,36 @@ th, td {
   gap: 20px;
 }
 
+.interest-area-image {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.interest-area-image img {
+  display: block;
+  width: 1000px;
+  height: 740px;
+}
+
+.area-borders {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px;
+  height: 740px;
+  pointer-events: none;
+}
+
+.area-borders circle,
+.area-borders rect,
+.area-borders polygon {
+  fill: transparent;
+  stroke: yellow;
+  stroke-width: 3;
+  stroke-dasharray: 5, 5;
+  filter: drop-shadow(0 0 4px rgba(255, 215, 0, 0.95));
+}
+
 .interest-area-description {
   padding-inline-start: 20px;
   padding-inline-end: 40px;
@@ -219,8 +249,6 @@ th, td {
 .interest-area-description ul {
   padding-inline-start: 30px;
 }
-
-
 
 @media (max-width: 768px) {
   .service {
