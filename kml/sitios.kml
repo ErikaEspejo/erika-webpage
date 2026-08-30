@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Folder>
+    <Placemark>
+      <name>Museo Geológico Nacional José Royo y Gómez</name>
+      <Point>
+        <coordinates>-74.0803812068551,4.6409792668054175,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>El Cubo Colsubsidio</name>
+      <Point>
+        <coordinates>-74.07995229434547,4.642285254323418,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Museo de Historica Natural</name>
+      <Point>
+        <coordinates>-74.08173619962311,4.642475217234346,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Servicio Geológico Colombiano</name>
+      <Point>
+        <coordinates>-74.07998589711715,4.641673062342921,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Observatorio Astronómico Universidad Nacional</name>
+      <Point>
+        <coordinates>-74.08332061339934,4.639670401865666,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  
+</kml>

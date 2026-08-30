@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1000 1088" xmlns="http://www.w3.org/2000/svg" >
+  <defs>
+    <style type="text/css">
+      @import url('https://googleapis.com');
+      text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+      }
+    </style>
+    </defs>
+  <rect width="1000" height="1088" x="0" y="0" style="fill:#EBFBEE" />
+
+  <polygon points="597,0 644,0 568,1088 524,1088 " style="fill:#868E96" />
+  <polygon points="556,987 1000,1064 1000,1088 952,1088 567,1023" style="fill:#868E96" />
+  <polygon points="1000,427 1000,457 406,353 396,323 " style="fill:#868E96" />
+  <polygon points="0,983 253,1088 177,1088 0,1012 " style="fill:#868E96" />
+  <polygon points="0,0 35,0 416,336 395,357 0,11 " style="fill:#868E96" />
+  <polygon points="395,357 405,344 574,485 573,508 " style="fill:#868E96" />
+  <polygon points="0,129 58,63 81,0 107,0 82,72 0,164" style="fill:#868E96" />
+  <polygon points="0,399 202,177 213,186 0,420" style="fill:#868E96" />
+
+  <polygon points="637,207 648,3 766,15 852,120 756,217" style="fill:#FFF9DB" />
+  <polygon points="843,387 858,315 998,342 983,415" style="fill:#FFF9DB" />
+  <polygon points="206,192 562,504 523,1088 251,1088 0,983 0,418" style="fill:#FFF9DB" />
+  <polygon points="417,355 571,380 564,475" style="fill:#FFF9DB" />
+
+  <polygon points="508,587 548,589 539,725 499,722" style="fill:#4DABF7" />
+
+  <text x="740" y="94" fill="#868E96" text-anchor="middle">
+    <tspan x="740" dy="0">Estadio</tspan>
+    <tspan x="740" dy="25">Nemesio Camacho</tspan>
+    <tspan x="740" dy="25">"El Campín"</tspan>
+  </text>
+  <text x="920" y="375" fill="#868E96" text-anchor="middle">C.C. Galerías</text>
+  <text x="230" y="718" fill="#868E96" text-anchor="middle">Universidad Nacional de Colombia</text>
+  <text x="520" y="400" fill="#868E96" text-anchor="middle">El Cubo</text>
+  <text x="515" y="720" fill="#fff" transform="rotate(273, 506, 695)">IGAC</text>
+
+  <text x="15" y="1011" fill="#fff" transform="rotate(23, 15, 1004)">Avenida Calle 26</text>
+  <text x="115" y="101" fill="#fff" transform="rotate(41, 115, 105)">Calle 53</text>
+  <text x="645" y="387" fill="#fff" transform="rotate(10, 645, 387)">Calle 53</text>
+  <text x="565" y="792" fill="#fff" transform="rotate(273, 557, 772)">Avenida NQS</text>
+  <text x="658" y="1030" fill="#fff" transform="rotate(9, 658, 1010)">Calle 45</text>
+</svg>

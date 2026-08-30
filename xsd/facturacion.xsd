@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="facturas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="factura" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="factura">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="numeroFactura" type="xs:string"/>
+        <xs:element name="fecha" type="xs:date"/>
+        <xs:element name="timestamp" type="xs:time"/>
+        <xs:element name="estado" type="xs:string"/>
+        <xs:element name="identificacionCliente" type="xs:string"/>
+        <xs:element name="nombreCliente" type="xs:string"/>
+        <xs:element name="direccionCliente" type="xs:string"/>
+        <xs:element name="telefonoCliente" type="xs:string"/>
+        <xs:element name="cuotas">
+           <xs:simpleType>
+              <xs:restriction base="xs:integer">
+                 <xs:minInclusive value="1"/>
+                 <xs:maxInclusive value="12"/>
+              </xs:restriction>
+           </xs:simpleType>
+        </xs:element>
+        <xs:element ref="detalles"/>
+        <xs:element ref="pagos"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:integer" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="detalles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="servicio" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="servicio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="descripcion" type="xs:string"/>
+        <xs:element name="cantidad" type="xs:integer"/>
+        <xs:element name="valorUnitario" type="xs:decimal"/>
+        <xs:element name="descuento" type="xs:decimal"/>
+        <xs:element name="impuesto" type="xs:decimal"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pagos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="pago"  minOccurs="1" maxOccurs="12"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pago">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="idPago" type="xs:string"/>
+        <xs:element name="metodoPago" type="xs:string"/>
+        <xs:element name="estadoPago" type="xs:string"/>
+        <xs:element name="fechaPago" type="xs:date"/>
+        <xs:element name="valorPago" type="xs:decimal"/>
+        <xs:element name="numeroCuota" type="xs:integer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
