@@ -233,6 +233,32 @@ th, td {
 	padding-inline: 10px;
 }
 
+@media (min-width: 769px) and (max-height: 650px) {
+  .header-info h1 {
+    font-size: 4rem;
+    line-height: 1;
+  }
+
+  .header-info p {
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 769px) and (max-height: 450px) {
+  header {
+    min-height: 6rem;
+  }
+
+  .header-info h1 {
+    font-size: 3rem;
+  }
+
+  .header-info p {
+    font-size: .9rem;
+  }
+}
+
 .interest-area-wrapper h1 {
   padding-block: 20px;
 }
@@ -287,6 +313,61 @@ th, td {
 }
 
 @media (max-width: 768px) {
+  header {
+    height: auto;
+    min-height: 0;
+    flex-direction: column;
+    overflow: visible;
+  }
+
+  .header-container {
+    width: 100%;
+    min-height: 12rem;
+    background-image: none;
+  }
+
+  .header-logo {
+    flex: 0 0 auto;
+    height: 12rem;
+  }
+
+  .header-logo img {
+    display: block;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .header-info {
+    min-width: 0;
+    padding-inline: 2rem;
+  }
+
+  .header-info h1 {
+    font-size: 4.2rem;
+  }
+
+  .header-info p {
+    max-width: 32rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .header-logo-navbar {
+    width: 100%;
+    min-width: 0;
+    height: 5.5rem;
+    padding: .8rem;
+  }
+
+  .header-logo-navbar img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
   .service {
     flex-direction: column !important;
   }
@@ -298,5 +379,35 @@ th, td {
   }
   nav, iframe {
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-container {
+    min-height: 10rem;
+    background-image: none;
+  }
+
+  .header-logo {
+    display: none;
+  }
+
+  .header-logo-navbar {
+    display: none;
+  }
+
+  .header-info {
+    width: 100%;
+    padding-inline: 1.2rem;
+    text-align: center;
+  }
+
+  .header-info h1 {
+    font-size: 3.4rem;
+  }
+
+  .header-info p {
+    font-size: 1rem;
+    line-height: 1.35;
   }
 }
