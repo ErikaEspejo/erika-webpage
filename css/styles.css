@@ -20,6 +20,7 @@
 
 html {
   font-size: 62.5%;
+  height: 100%;
 }
 
 body {
@@ -32,12 +33,16 @@ body {
 body.layout-container {
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  min-height: 0;
+  overflow: hidden;
 }
 
 header {
   display: flex;
   flex-direction: row;
   height: 15vh;
+  flex-shrink: 0;
 }
 
 .header-container {
@@ -87,11 +92,23 @@ header {
   display: flex;
   flex-direction: row-reverse;
   flex: 1;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .aside {
   width: 15%;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
   background: var(--green-dark);
+  display: flex;
+  flex-direction: column;
+
+  background-image: url("../img/nav-background.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: bottom center;
 }
 
 .aside h2 {
@@ -113,12 +130,13 @@ li {
   font-size: light;
   padding-inline: 10%;
   color: var(--cream);
-  padding-block: 5%;
+  padding-block: 2%;
   font-weight: 200;
 }
 
 li:hover {
   border-inline-start: 5px solid var(--terracotta);
+  border-block-end: 2px solid var(--terracotta);
   color: var(--terracotta);
   font-weight: 600;
 }
@@ -127,24 +145,65 @@ li a {
   text-decoration: none;
   color: inherit;
   font-weight: inherit;
-  font-family: var(--font-mono);
+  font-family: var(--font-body);
+}
+
+.aside blackquote span {
+  color: var(--terracotta);
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 6rem;
+  padding-inline: 10%;
+}
+
+.aside blackquote p {
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-weight: 200;
+  font-size: 1.5rem;
+  padding-inline: 10%;
+  margin-block-start: -4rem;
 }
 
 iframe {
   width: 85%;
-  background-color: #f1f1f1;
+  min-height: 0;
+  height: 100%;
+  background-color: var(--cream);
   border: 0;
   flex: 1;
   border-block-start: 1px solid color-mix(in srgb, var(--green) 30%, transparent) ;
 }
 
 footer {
-  background-color: #777;
+  background-color: var(--green-dark);
   padding: 10px;
   text-align: center;
   color: white;
+  height: 8vh;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
 }
 
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  gap: 10px;
+}
+
+.contact-icon {
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.contact-icon img {
+  display: block;
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
 
 .iframe-wrapper {
   padding: 20px;
@@ -380,8 +439,12 @@ th, td {
   .main-layout {
     flex-direction: column;
   }
-  nav, iframe {
+  .aside, nav, iframe {
     width: 100%;
+  }
+
+  .aside {
+    max-height: 40%;
   }
 }
 
