@@ -2,300 +2,363 @@
 <facturas xmlns:fac="http://www.w3.org/2001/XMLSchema-instance" fac:noNamespaceSchemaLocation="../xsd/facturacion.xsd">
   <factura id="1">
     <numeroFactura>F001</numeroFactura>
-    <fecha>2026-08-10</fecha>
-    <timestamp>10:20:35</timestamp>
+    <fecha>2026-08-01</fecha>
+    <timestamp>08:15:20</timestamp>
     <estado>pagada</estado>
-    <identificacionCliente>123456789</identificacionCliente>
-    <nombreCliente>Pepito Pérez</nombreCliente>
-    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
-    <telefonoCliente>55526658</telefonoCliente>
+    <identificacionCliente>100000001</identificacionCliente>
+    <nombreCliente>Homero Simpson</nombreCliente>
+    <direccionCliente>742 Avenida Siempre Viva, Springfield</direccionCliente>
+    <telefonoCliente>5550001</telefonoCliente>
     <cuotas>1</cuotas>
     <detalles>
       <servicio>
-        <descripcion>Consultoría n8n</descripcion>
+        <descripcion>Desarrollo de Software y Backend</descripcion>
         <cantidad>1</cantidad>
-        <valorUnitario>1000000</valorUnitario>
+        <valorUnitario>2400000</valorUnitario>
         <descuento>0</descuento>
-        <impuesto>100000</impuesto>
+        <impuesto>456000</impuesto>
       </servicio>
     </detalles>
     <pagos>
       <pago>
-        <idPago>1</idPago>
-        <metodoPago>Tarjeta de Credito</metodoPago>
+        <idPago>P001</idPago>
+        <metodoPago>Tarjeta de crédito</metodoPago>
         <estadoPago>pagado</estadoPago>
-        <fechaPago>2026-08-10</fechaPago>
-        <valorPago>1100000</valorPago>
+        <fechaPago>2026-08-01</fechaPago>
+        <valorPago>2856000</valorPago>
         <numeroCuota>1</numeroCuota>
       </pago>
     </pagos>
   </factura>
   <factura id="2">
     <numeroFactura>F002</numeroFactura>
-    <fecha>2026-08-11</fecha>
-    <timestamp>10:20:35</timestamp>
+    <fecha>2026-08-02</fecha>
+    <timestamp>09:30:45</timestamp>
     <estado>pagada</estado>
-    <identificacionCliente>123456489</identificacionCliente>
-    <nombreCliente>Pepito Pérez</nombreCliente>
-    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
-    <telefonoCliente>55526658</telefonoCliente>
+    <identificacionCliente>100000002</identificacionCliente>
+    <nombreCliente>Marge Simpson</nombreCliente>
+    <direccionCliente>742 Avenida Siempre Viva, Springfield</direccionCliente>
+    <telefonoCliente>5550002</telefonoCliente>
     <cuotas>1</cuotas>
     <detalles>
       <servicio>
-        <descripcion>Consultoría n8n</descripcion>
+        <descripcion>Automatización de procesos con n8n</descripcion>
         <cantidad>1</cantidad>
-        <valorUnitario>1000000</valorUnitario>
+        <valorUnitario>1800000</valorUnitario>
         <descuento>0</descuento>
-        <impuesto>100000</impuesto>
+        <impuesto>342000</impuesto>
+      </servicio>
+      <servicio>
+        <descripcion>Integración de Google Sheets</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>900000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>171000</impuesto>
       </servicio>
     </detalles>
     <pagos>
       <pago>
-        <idPago>1</idPago>
-        <metodoPago>Tarjeta de Credito</metodoPago>
+        <idPago>P002</idPago>
+        <metodoPago>Transferencia bancaria</metodoPago>
         <estadoPago>pagado</estadoPago>
-        <fechaPago>2026-08-10</fechaPago>
-        <valorPago>1100000</valorPago>
+        <fechaPago>2026-08-02</fechaPago>
+        <valorPago>3213000</valorPago>
         <numeroCuota>1</numeroCuota>
       </pago>
     </pagos>
   </factura>
   <factura id="3">
-    <numeroFactura>F002</numeroFactura>
-    <fecha>2026-08-11</fecha>
-    <timestamp>10:20:35</timestamp>
+    <numeroFactura>F003</numeroFactura>
+    <fecha>2026-08-03</fecha>
+    <timestamp>10:10:30</timestamp>
     <estado>pagada</estado>
-    <identificacionCliente>123456489</identificacionCliente>
-    <nombreCliente>Pepito Pérez</nombreCliente>
-    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
-    <telefonoCliente>55526658</telefonoCliente>
+    <identificacionCliente>100000003</identificacionCliente>
+    <nombreCliente>Bart Simpson</nombreCliente>
+    <direccionCliente>Casa del árbol, Springfield</direccionCliente>
+    <telefonoCliente>5550003</telefonoCliente>
     <cuotas>1</cuotas>
     <detalles>
       <servicio>
-        <descripcion>Consultoría n8n</descripcion>
+        <descripcion>Implementación de agente de IA</descripcion>
         <cantidad>1</cantidad>
-        <valorUnitario>1000000</valorUnitario>
+        <valorUnitario>2100000</valorUnitario>
+        <descuento>100000</descuento>
+        <impuesto>380000</impuesto>
+      </servicio>
+      <servicio>
+        <descripcion>Configuración de flujos RAG</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1600000</valorUnitario>
         <descuento>0</descuento>
-        <impuesto>100000</impuesto>
+        <impuesto>304000</impuesto>
+      </servicio>
+      <servicio>
+        <descripcion>Pruebas y monitoreo de agentes</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1100000</valorUnitario>
+        <descuento>100000</descuento>
+        <impuesto>190000</impuesto>
       </servicio>
     </detalles>
     <pagos>
       <pago>
-        <idPago>1</idPago>
-        <metodoPago>Tarjeta de Credito</metodoPago>
+        <idPago>P003</idPago>
+        <metodoPago>Billetera digital</metodoPago>
         <estadoPago>pagado</estadoPago>
-        <fechaPago>2026-08-10</fechaPago>
-        <valorPago>1100000</valorPago>
+        <fechaPago>2026-08-03</fechaPago>
+        <valorPago>5474000</valorPago>
         <numeroCuota>1</numeroCuota>
       </pago>
     </pagos>
   </factura>
   <factura id="4">
-    <numeroFactura>F002</numeroFactura>
-    <fecha>2026-08-11</fecha>
-    <timestamp>10:20:35</timestamp>
+    <numeroFactura>F004</numeroFactura>
+    <fecha>2026-08-04</fecha>
+    <timestamp>11:25:10</timestamp>
     <estado>pagada</estado>
-    <identificacionCliente>123456489</identificacionCliente>
-    <nombreCliente>Pepito Pérez</nombreCliente>
-    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
-    <telefonoCliente>55526658</telefonoCliente>
+    <identificacionCliente>100000004</identificacionCliente>
+    <nombreCliente>Lisa Simpson</nombreCliente>
+    <direccionCliente>Biblioteca de Springfield</direccionCliente>
+    <telefonoCliente>5550004</telefonoCliente>
     <cuotas>1</cuotas>
     <detalles>
       <servicio>
-        <descripcion>Consultoría n8n</descripcion>
+        <descripcion>Solución GIS y geoespacial</descripcion>
         <cantidad>1</cantidad>
-        <valorUnitario>1000000</valorUnitario>
+        <valorUnitario>2600000</valorUnitario>
         <descuento>0</descuento>
-        <impuesto>100000</impuesto>
+        <impuesto>494000</impuesto>
       </servicio>
     </detalles>
     <pagos>
       <pago>
-        <idPago>1</idPago>
-        <metodoPago>Tarjeta de Credito</metodoPago>
+        <idPago>P004</idPago>
+        <metodoPago>Transferencia bancaria</metodoPago>
         <estadoPago>pagado</estadoPago>
-        <fechaPago>2026-08-10</fechaPago>
-        <valorPago>1100000</valorPago>
+        <fechaPago>2026-08-04</fechaPago>
+        <valorPago>3094000</valorPago>
         <numeroCuota>1</numeroCuota>
       </pago>
     </pagos>
   </factura>
   <factura id="5">
-    <numeroFactura>F002</numeroFactura>
-    <fecha>2026-08-11</fecha>
-    <timestamp>10:20:35</timestamp>
+    <numeroFactura>F005</numeroFactura>
+    <fecha>2026-08-05</fecha>
+    <timestamp>12:40:55</timestamp>
     <estado>pagada</estado>
-    <identificacionCliente>123456489</identificacionCliente>
-    <nombreCliente>Pepito Pérez</nombreCliente>
-    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
-    <telefonoCliente>55526658</telefonoCliente>
+    <identificacionCliente>100000005</identificacionCliente>
+    <nombreCliente>Maggie Simpson</nombreCliente>
+    <direccionCliente>Guardería Ayn Rand, Springfield</direccionCliente>
+    <telefonoCliente>5550005</telefonoCliente>
     <cuotas>1</cuotas>
     <detalles>
       <servicio>
-        <descripcion>Consultoría n8n</descripcion>
+        <descripcion>Desarrollo de API REST</descripcion>
         <cantidad>1</cantidad>
-        <valorUnitario>1000000</valorUnitario>
+        <valorUnitario>1500000</valorUnitario>
         <descuento>0</descuento>
-        <impuesto>100000</impuesto>
+        <impuesto>285000</impuesto>
+      </servicio>
+      <servicio>
+        <descripcion>Documentación técnica de API</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>800000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>152000</impuesto>
       </servicio>
     </detalles>
     <pagos>
       <pago>
-        <idPago>1</idPago>
-        <metodoPago>Tarjeta de Credito</metodoPago>
+        <idPago>P005</idPago>
+        <metodoPago>Tarjeta de débito</metodoPago>
         <estadoPago>pagado</estadoPago>
-        <fechaPago>2026-08-10</fechaPago>
-        <valorPago>1100000</valorPago>
+        <fechaPago>2026-08-05</fechaPago>
+        <valorPago>2737000</valorPago>
         <numeroCuota>1</numeroCuota>
       </pago>
     </pagos>
   </factura>
   <factura id="6">
-    <numeroFactura>F002</numeroFactura>
-    <fecha>2026-08-11</fecha>
-    <timestamp>10:20:35</timestamp>
+    <numeroFactura>F006</numeroFactura>
+    <fecha>2026-08-06</fecha>
+    <timestamp>13:05:25</timestamp>
     <estado>pagada</estado>
-    <identificacionCliente>123456489</identificacionCliente>
-    <nombreCliente>Pepito Pérez</nombreCliente>
-    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
-    <telefonoCliente>55526658</telefonoCliente>
+    <identificacionCliente>100000006</identificacionCliente>
+    <nombreCliente>Ned Flanders</nombreCliente>
+    <direccionCliente>744 Avenida Siempre Viva, Springfield</direccionCliente>
+    <telefonoCliente>5550006</telefonoCliente>
     <cuotas>1</cuotas>
     <detalles>
       <servicio>
-        <descripcion>Consultoría n8n</descripcion>
+        <descripcion>Integración de datos geoespaciales</descripcion>
         <cantidad>1</cantidad>
-        <valorUnitario>1000000</valorUnitario>
+        <valorUnitario>2200000</valorUnitario>
+        <descuento>200000</descuento>
+        <impuesto>380000</impuesto>
+      </servicio>
+      <servicio>
+        <descripcion>Procesamiento de datos geográficos</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1450000</valorUnitario>
         <descuento>0</descuento>
-        <impuesto>100000</impuesto>
+        <impuesto>275500</impuesto>
+      </servicio>
+      <servicio>
+        <descripcion>Automatización de reportes GIS</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1250000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>237500</impuesto>
       </servicio>
     </detalles>
     <pagos>
       <pago>
-        <idPago>1</idPago>
-        <metodoPago>Tarjeta de Credito</metodoPago>
+        <idPago>P006</idPago>
+        <metodoPago>Transferencia bancaria</metodoPago>
         <estadoPago>pagado</estadoPago>
-        <fechaPago>2026-08-10</fechaPago>
-        <valorPago>1100000</valorPago>
+        <fechaPago>2026-08-06</fechaPago>
+        <valorPago>5593000</valorPago>
         <numeroCuota>1</numeroCuota>
       </pago>
     </pagos>
   </factura>
   <factura id="7">
-    <numeroFactura>F002</numeroFactura>
-    <fecha>2026-08-11</fecha>
-    <timestamp>10:20:35</timestamp>
+    <numeroFactura>F007</numeroFactura>
+    <fecha>2026-08-07</fecha>
+    <timestamp>14:20:40</timestamp>
     <estado>pagada</estado>
-    <identificacionCliente>123456489</identificacionCliente>
-    <nombreCliente>Pepito Pérez</nombreCliente>
-    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
-    <telefonoCliente>55526658</telefonoCliente>
+    <identificacionCliente>100000007</identificacionCliente>
+    <nombreCliente>Montgomery Burns</nombreCliente>
+    <direccionCliente>Mansión Burns, Springfield</direccionCliente>
+    <telefonoCliente>5550007</telefonoCliente>
     <cuotas>1</cuotas>
     <detalles>
       <servicio>
-        <descripcion>Consultoría n8n</descripcion>
+        <descripcion>Consultoría de arquitectura backend</descripcion>
         <cantidad>1</cantidad>
-        <valorUnitario>1000000</valorUnitario>
+        <valorUnitario>1700000</valorUnitario>
         <descuento>0</descuento>
-        <impuesto>100000</impuesto>
+        <impuesto>323000</impuesto>
       </servicio>
     </detalles>
     <pagos>
       <pago>
-        <idPago>1</idPago>
-        <metodoPago>Tarjeta de Credito</metodoPago>
+        <idPago>P007</idPago>
+        <metodoPago>Tarjeta de crédito</metodoPago>
         <estadoPago>pagado</estadoPago>
-        <fechaPago>2026-08-10</fechaPago>
-        <valorPago>1100000</valorPago>
+        <fechaPago>2026-08-07</fechaPago>
+        <valorPago>2023000</valorPago>
         <numeroCuota>1</numeroCuota>
       </pago>
     </pagos>
   </factura>
   <factura id="8">
-    <numeroFactura>F002</numeroFactura>
-    <fecha>2026-08-11</fecha>
-    <timestamp>10:20:35</timestamp>
+    <numeroFactura>F008</numeroFactura>
+    <fecha>2026-08-08</fecha>
+    <timestamp>15:35:15</timestamp>
     <estado>pagada</estado>
-    <identificacionCliente>123456489</identificacionCliente>
-    <nombreCliente>Pepito Pérez</nombreCliente>
-    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
-    <telefonoCliente>55526658</telefonoCliente>
+    <identificacionCliente>100000008</identificacionCliente>
+    <nombreCliente>Moe Szyslak</nombreCliente>
+    <direccionCliente>Taberna de Moe, Springfield</direccionCliente>
+    <telefonoCliente>5550008</telefonoCliente>
     <cuotas>1</cuotas>
     <detalles>
       <servicio>
-        <descripcion>Consultoría n8n</descripcion>
+        <descripcion>Automatización de procesos con IA</descripcion>
         <cantidad>1</cantidad>
-        <valorUnitario>1000000</valorUnitario>
+        <valorUnitario>1900000</valorUnitario>
         <descuento>0</descuento>
-        <impuesto>100000</impuesto>
+        <impuesto>361000</impuesto>
+      </servicio>
+      <servicio>
+        <descripcion>Integración de correo y mensajería</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1050000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>199500</impuesto>
       </servicio>
     </detalles>
     <pagos>
       <pago>
-        <idPago>1</idPago>
-        <metodoPago>Tarjeta de Credito</metodoPago>
+        <idPago>P008</idPago>
+        <metodoPago>Efectivo</metodoPago>
         <estadoPago>pagado</estadoPago>
-        <fechaPago>2026-08-10</fechaPago>
-        <valorPago>1100000</valorPago>
+        <fechaPago>2026-08-08</fechaPago>
+        <valorPago>3510500</valorPago>
         <numeroCuota>1</numeroCuota>
       </pago>
     </pagos>
   </factura>
   <factura id="9">
-    <numeroFactura>F002</numeroFactura>
-    <fecha>2026-08-11</fecha>
-    <timestamp>10:20:35</timestamp>
+    <numeroFactura>F009</numeroFactura>
+    <fecha>2026-08-09</fecha>
+    <timestamp>16:50:05</timestamp>
     <estado>pagada</estado>
-    <identificacionCliente>123456489</identificacionCliente>
-    <nombreCliente>Pepito Pérez</nombreCliente>
-    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
-    <telefonoCliente>55526658</telefonoCliente>
+    <identificacionCliente>100000009</identificacionCliente>
+    <nombreCliente>Milhouse Van Houten</nombreCliente>
+    <direccionCliente>Casa Van Houten, Springfield</direccionCliente>
+    <telefonoCliente>5550009</telefonoCliente>
     <cuotas>1</cuotas>
     <detalles>
       <servicio>
-        <descripcion>Consultoría n8n</descripcion>
+        <descripcion>Desarrollo de panel geoespacial</descripcion>
         <cantidad>1</cantidad>
-        <valorUnitario>1000000</valorUnitario>
+        <valorUnitario>2300000</valorUnitario>
+        <descuento>100000</descuento>
+        <impuesto>418000</impuesto>
+      </servicio>
+      <servicio>
+        <descripcion>Consultas y análisis espacial</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1600000</valorUnitario>
         <descuento>0</descuento>
-        <impuesto>100000</impuesto>
+        <impuesto>304000</impuesto>
+      </servicio>
+      <servicio>
+        <descripcion>Publicación de mapas web</descripcion>
+        <cantidad>1</cantidad>
+        <valorUnitario>1300000</valorUnitario>
+        <descuento>0</descuento>
+        <impuesto>247000</impuesto>
       </servicio>
     </detalles>
     <pagos>
       <pago>
-        <idPago>1</idPago>
-        <metodoPago>Tarjeta de Credito</metodoPago>
+        <idPago>P009</idPago>
+        <metodoPago>Billetera digital</metodoPago>
         <estadoPago>pagado</estadoPago>
-        <fechaPago>2026-08-10</fechaPago>
-        <valorPago>1100000</valorPago>
+        <fechaPago>2026-08-09</fechaPago>
+        <valorPago>6069000</valorPago>
         <numeroCuota>1</numeroCuota>
       </pago>
     </pagos>
   </factura>
   <factura id="10">
-    <numeroFactura>F002</numeroFactura>
-    <fecha>2026-08-11</fecha>
-    <timestamp>10:20:35</timestamp>
+    <numeroFactura>F010</numeroFactura>
+    <fecha>2026-08-10</fecha>
+    <timestamp>17:45:50</timestamp>
     <estado>pagada</estado>
-    <identificacionCliente>123456489</identificacionCliente>
-    <nombreCliente>Pepito Pérez</nombreCliente>
-    <direccionCliente>Calle Siempre Viva #123</direccionCliente>
-    <telefonoCliente>55526658</telefonoCliente>
+    <identificacionCliente>100000010</identificacionCliente>
+    <nombreCliente>Seymour Skinner</nombreCliente>
+    <direccionCliente>Escuela Primaria de Springfield</direccionCliente>
+    <telefonoCliente>5550010</telefonoCliente>
     <cuotas>1</cuotas>
     <detalles>
       <servicio>
-        <descripcion>Consultoría n8n</descripcion>
+        <descripcion>Mantenimiento y documentación de software</descripcion>
         <cantidad>1</cantidad>
-        <valorUnitario>1000000</valorUnitario>
+        <valorUnitario>1200000</valorUnitario>
         <descuento>0</descuento>
-        <impuesto>100000</impuesto>
+        <impuesto>228000</impuesto>
       </servicio>
     </detalles>
     <pagos>
       <pago>
-        <idPago>1</idPago>
-        <metodoPago>Tarjeta de Credito</metodoPago>
+        <idPago>P010</idPago>
+        <metodoPago>Transferencia bancaria</metodoPago>
         <estadoPago>pagado</estadoPago>
         <fechaPago>2026-08-10</fechaPago>
-        <valorPago>1100000</valorPago>
+        <valorPago>1428000</valorPago>
         <numeroCuota>1</numeroCuota>
       </pago>
     </pagos>
