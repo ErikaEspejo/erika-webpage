@@ -1103,14 +1103,26 @@ footer {
 
 /* Interest area and IGAC — desktop */
 
+.interest-area-page {
+  background: var(--cream);
+}
+
+.interest-area-wrapper {
+  padding: 1.2rem 1.2rem 3rem;
+}
+
 .interest-area-wrapper h1 {
-  padding-block: 20px;
+  margin-block-end: 2.4rem;
+  font-size: 5.4rem;
+  font-weight: 500;
+  line-height: 1.08;
 }
 
 .interest-area-content {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  align-items: flex-start;
+  gap: 2rem;
 }
 
 .interest-area-image {
@@ -1146,14 +1158,145 @@ footer {
 
 .interest-area-description {
   display: flex;
+  min-width: 0;
+  flex: 1;
   flex-direction: column;
-  padding-inline-start: 20px;
-  padding-inline-end: 40px;
-  gap: 20px;
+  padding: 3rem;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, .2);
+  gap: 2rem;
+}
+
+.interest-area-description h2 {
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.08;
+}
+
+.interest-area-description h3 {
+  margin-block-end: .8rem;
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.interest-area-description p,
+.interest-area-description li,
+.interest-area-description span {
+  font-family: var(--font-body);
+}
+
+.interest-area-description p,
+.interest-area-description li {
+  font-size: 1.4rem;
+  line-height: 1.6;
 }
 
 .interest-area-description ul {
-  padding-inline-start: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 1.8rem;
+  gap: .8rem;
+}
+
+.interest-area-description li::marker {
+  color: var(--terracotta);
+}
+
+.interest-area-description li span {
+  font-weight: 600;
+}
+
+.igac-location-note {
+  padding-inline-start: 1.2rem;
+  border-inline-start: 2px solid var(--terracotta);
+  color: var(--green);
+}
+
+.igac-details,
+.igac-data-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.igac-details {
+  gap: 2rem;
+}
+
+.igac-data-list {
+  gap: .2rem;
+}
+
+.igac-data-item {
+  display: flex;
+  padding-block: .7rem;
+  border-block-end: 1px solid var(--border);
+  gap: 1.2rem;
+}
+
+.igac-data-item strong,
+.igac-data-item span {
+  font-family: var(--font-body);
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.igac-data-item strong {
+  flex: 0 0 11rem;
+}
+
+.igac-data-item span {
+  flex: 1;
+}
+
+.igac-image img {
+  display: block;
+  border: .1rem solid var(--border);
+  border-radius: 3rem;
+}
+
+@media (min-width: 1025px) {
+  .igac-page .interest-area-wrapper {
+    padding-inline: 2.4rem;
+  }
+
+  .igac-page .interest-area-wrapper h1 {
+    width: calc(45% - 4.8rem);
+    margin-inline-start: calc(5% + 2.4rem);
+  }
+
+  .igac-page .interest-area-content {
+    width: 45%;
+    margin-inline-start: 5%;
+    justify-content: center;
+  }
+
+  .igac-page .interest-area-description {
+    width: calc(100% - 4.8rem);
+    flex: none;
+  }
+
+  .igac-image {
+    position: fixed;
+    inset-block-start: 4.8rem;
+    inset-inline-start: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 43%;
+    height: calc(100vh - 4.8rem);
+    padding-block-end: 2.4rem;
+  }
+
+  .igac-image img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
 
 /* Interest area and IGAC — tablet */
@@ -1161,6 +1304,10 @@ footer {
 @media (max-width: 1024px) {
   .interest-area-wrapper {
     padding: 2.4rem;
+  }
+
+  .interest-area-wrapper h1 {
+    font-size: 4rem;
   }
 
   .interest-area-content {
@@ -1182,13 +1329,18 @@ footer {
   }
 
   .interest-area-description {
-    padding-inline: 0;
+    padding: 2.4rem;
   }
 
-  .igac-image,
-  .igac-image object {
+  .igac-image {
     width: 100%;
     max-width: 74rem;
+    margin-inline: auto;
+  }
+
+  .igac-image img {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -1197,5 +1349,36 @@ footer {
 @media (max-width: 600px) {
   .interest-area-wrapper {
     padding: 1.6rem;
+  }
+
+  .interest-area-wrapper h1 {
+    font-size: 2.8rem;
+  }
+
+  .interest-area-description {
+    padding: 1.6rem;
+  }
+
+  .interest-area-description h2 {
+    font-size: 2.4rem;
+  }
+
+  .interest-area-description p,
+  .interest-area-description li {
+    font-size: 1.3rem;
+  }
+
+  .igac-data-item {
+    flex-direction: column;
+    gap: .2rem;
+  }
+
+  .igac-data-item strong {
+    flex-basis: auto;
+  }
+
+  .igac-data-item strong,
+  .igac-data-item span {
+    font-size: 1.3rem;
   }
 }
