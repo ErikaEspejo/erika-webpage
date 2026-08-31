@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <title>Erika Espejo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="img/logo-white.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body class="layout-container">
     <header>
       <div class="header-container">
+        <input class="menu-toggle-input" type="checkbox" id="menu-toggle">
+        <label class="menu-toggle" for="menu-toggle">
+          <span class="menu-toggle-icon"></span>
+        </label>
         <div class="header-logo">
           <img src="img/logo-green-curves.png" alt="">
         </div>
@@ -25,25 +29,24 @@
       </div>
     </header>
     <section class="main-layout">
-      <div class="aside">
-        <h2>NAVEGACIÓN</h2>
-        <nav>
-          <ul>
-            <li><a href="html/services.html" target="content">01  SERVICIOS</a></li>
-            <li><a href="html/cv.html" target="content">02  HOJA DE VIDA</a></li> 
-            <li><a href="html/interest_area.html" target="content">03  ÁREA TURÍSTICA</a></li>
-            <li><a href="xml/facturacion.xml" target="content">04  FACTURACIÓN</a></li>
-            <li><a href="html/igac.html" target="content">05  UBICACIÓN IGAC</a></li>
-            <li><a href="gml/edificiosIGAC.gml" target="content">06  GEODATOS IGAC</a></li>
-            <li><a href="kml/sitiosInteres.kml" target="content">07  SITIOS DE INTERÉS</a></li>
-          </ul>
-        </nav>
-        <blackquote>
-          <span>“</span>
-          <p>Constuyendo soluciones que conectan datos, tecnología y territorio.</p>
-        </blackquote>
-      </div>      
       <iframe src="html/services.html" title="content" name="content"></iframe>
+      <label class="menu-overlay" for="menu-toggle"></label>
+      <nav class="aside">
+        <h2>NAVEGACIÓN</h2>
+        <ul>
+          <li><a href="html/services.html" target="content">01  SERVICIOS</a></li>
+          <li><a href="html/cv.html" target="content">02  HOJA DE VIDA</a></li>
+          <li><a href="html/interest_area.html" target="content">03  ÁREA TURÍSTICA</a></li>
+          <li><a href="xml/facturacion.xml" target="content">04  FACTURACIÓN</a></li>
+          <li><a href="html/igac.html" target="content">05  UBICACIÓN IGAC</a></li>
+          <li><a href="gml/edificiosIGAC.gml" target="content">06  GEODATOS IGAC</a></li>
+          <li><a href="kml/sitios.kml" target="content">07  SITIOS DE INTERÉS</a></li>
+        </ul>
+        <blockquote>
+          <span>“</span>
+          <p>Construyendo soluciones que conectan datos, tecnología y territorio.</p>
+        </blockquote>
+      </nav>
     </section>
 
     <footer>
