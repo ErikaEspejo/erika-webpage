@@ -1,47 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-	  	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="../css/styles.css">
-		<title>Erika Espejo - Servicios y Consultoría</title>
-	</head>
-	<body>
-		<div class="iframe-wrapper">
-			<h1 class="header">Servicios y Consultoría</h1>
-			<div class="services">
-				<div class="service">
-					<div>
-						<h2>Automatizamos tus procesos con n8n</h2>
-						<p>Implementamos workflows en N8N que eliminan tareas manuales y conectan todos tus sistemas. WhatsApp Business, CRMs, hojas de cálculo, APIs.</p>
-						<p><span>Workflows personalizados: </span>Diseñamos flujos de trabajo a medida: sin plantillas genéricas. Cada automatización se adapta exactamente a tus procesos, sistemas y equipo.</p>
-					</div>
-					<img src="../img/n8n.jpg" alt="Ilustración de n8n">
-				</div>
-				<div class="service">
-					<div>
-						<h2>Construimos software a la medida de tus necesidades</h2>
-						<p><span>Desarrollo de Software: </span> Creamos soluciones tecnológicas que impulsen la eficiencia y la innovación en tu empresa. </p>
-						<p><span>Mantenimiento y soporte:</span>Garantiza que tus aplicaciones funcionen de manera óptima a lo largo del tiempo.</p>
-						<p><span>Actualización y despliegue: </span>Gestionamos todo el proceso de actualización y despliegue de manera eficiente.</p>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Erika Espejo - Servicios</title>
+  </head>
+  <body class="iframe-page services-page">
+    <main class="iframe-wrapper services-layout">
+      <div class="services-header">
+        <p class="iframe-breadcrumb">ERIKA <span>/</span> <strong>SERVICIOS</strong></p>
+        <h1>
+          Servicios que conectan<br>
+          tecnología, <span class="text-green">datos</span> y
+          <span class="text-terracotta">territorio.</span>
+        </h1>
+        <p class="services-subheader">
+          Soluciones digitales de principio a fin, combinando desarrollo,
+          automatización e inteligencia para generar impacto real.
+        </p>
+      </div>
 
-					</div>
-					<img src="../img/software.jpg" alt="Ilustración de software">
-				</div>
-				<div class="service">
-					<div>
-						<h2>Generamos un ecosistema agéntico para resolver los problemas de tu empresa</h2>
-						<p>Ayudamos a tu empresa a convertir la Inteligencia Artificial en resultados reales</p>
-						<p><span>Estrategia de Inteligencia Artificial: </span>Analizamos tu negocio para identificar dónde podemos aportar más valor y diseñar una estrategia práctica con IA.</p>
-						<p><span>Agentes de IA para tu negocio: </span>Adaptados a cada empresa para gestionar información, apoyar tareas del equipo y automatizar procesos de forma inteligente.</p>
-						<p><span>Automatización de procesos con IA: </span>Eliminamos tareas repetitivas, optimizamos flujos de trabajo y permitimos que los equipos se centren en actividades de mayor valor.</p>
-					</div>
-					<img src="../img/ia.jpg" alt="Ilustración de IA">
-				</div>
-			</div>
-		</div>
-	</body>
+      <div class="services">
+        <div class="service">
+          <div class="service-media">
+            <img src="../img/software.jpg" alt="Entorno de desarrollo de software">
+          </div>
+          <div class="service-content">
+            <p class="service-number">01</p>
+            <h2>Desarrollo de Software & Backend</h2>
+            <p class="service-summary">
+              De la idea a producción. Soluciones robustas, escalables y mantenibles.
+            </p>
+            <ul class="service-list">
+              <li>Análisis y levantamiento de requerimientos</li>
+              <li>Diseño de arquitectura y soluciones</li>
+              <li>Desarrollo de APIs y microservicios</li>
+              <li>Testing, calidad y documentación</li>
+              <li>Despliegue y acompañamiento en todo el SDLC</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="service-media">
+            <img src="../img/n8n.jpg" alt="Flujo de automatización con n8n">
+          </div>
+          <div class="service-content">
+            <p class="service-number">02</p>
+            <h2>Automatización &<br>Agentes de IA</h2>
+            <p class="service-summary">
+              Automatizo procesos y creo agentes inteligentes que trabajan por ti.
+            </p>
+            <ul class="service-list">
+              <li>Automatización de procesos con n8n</li>
+              <li>Integración entre herramientas y APIs</li>
+              <li>Agentes de IA y flujos con LLMs</li>
+              <li>Notificaciones, aprobaciones y seguimiento</li>
+              <li>Soluciones human-in-the-loop</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="service-media">
+            <img src="../img/gis.jpg" alt="Mapa para análisis geoespacial">
+          </div>
+          <div class="service-content">
+            <p class="service-number">03</p>
+            <h2>Soluciones GIS &<br>Geoespaciales</h2>
+            <p class="service-summary">
+              Desarrollo aplicaciones y soluciones que convierten datos geográficos en decisiones.
+            </p>
+            <ul class="service-list">
+              <li>Aplicaciones con componentes geográficos</li>
+              <li>Mapas web interactivos y visualización de datos</li>
+              <li>Consultas, análisis y procesamiento espacial</li>
+              <li>APIs y servicios geográficos</li>
+              <li>Integración de datos geoespaciales</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
