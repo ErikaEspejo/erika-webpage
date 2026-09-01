@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/update_location.js"></script>
 	<title>IGAC</title>
 </head>
 <body class="iframe-page interest-area-page igac-page">
@@ -24,7 +25,8 @@
                 </ul>
             </div>
             <div class="locate-image">
-                <img src="https://maps.googleapis.com/maps/api/staticmap?center=Duitama%2CBoyac%C3%A1%2CColombia&zoom=14&size=500x450&markers=color%3A%23D65F32%7Csize%3Amid%7Clabel%3AP%7C5.825651844107315%2C-73.01857687607351&key=AIzaSyA65riSCrLQVKPwKZ3FdoaW_AKj6QYcIs0&scale=2" alt="Mapa de Duitama - Pueblito Boyacense" width="900">
+                <img id="locate-map" src="https://maps.googleapis.com/maps/api/staticmap?center=Duitama%2CBoyac%C3%A1%2CColombia&zoom=14&size=500x300&markers=color%3A%23D65F32%7Csize%3Amid%7Clabel%3AP%7C5.825651844107315%2C-73.01857687607351&key=AIzaSyA65riSCrLQVKPwKZ3FdoaW_AKj6QYcIs0&scale=2" alt="Mapa de Duitama - Pueblito Boyacense" width="900">
+                <button class="locate-button" onclick="updateCurrentLocation()">Ver ubicación actual</button>
 
 			</div>
 		</div>
