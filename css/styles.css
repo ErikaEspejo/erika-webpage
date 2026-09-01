@@ -1382,3 +1382,54 @@ footer {
     font-size: 1.3rem;
   }
 }
+
+/* Clients — desktop */
+
+.clients-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: min(100%, 116rem);
+  margin-inline: auto;
+  gap: 1rem;
+}
+
+.client-card {
+  border: 1px solid var(--border);
+  border-radius: 2rem;
+  padding-inline: 3.5rem;
+  padding-block: 2rem;
+}
+
+.client-name {
+  font-family: var(--font-mono);
+  color: var(--terracotta);
+}
+
+.client-id,
+.client-address,
+.client-phone {
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.client-id span,
+.client-address span,
+.client-phone span {
+  font-family: var(--font-mono);
+  font-weight: 600;
+}
+
+/* Interest area and IGAC — tablet */
+
+@media (max-width: 1024px) {
+  .clients-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .client-card {
+    padding-inline: 2.4rem;
+    padding-block: 1.6rem;
+  }
+}
