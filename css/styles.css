@@ -1118,6 +1118,13 @@ footer {
   line-height: 1.08;
 }
 
+.interest-area-wrapper h1 span {
+  color: var(--terracotta);
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+  line-height: 0.1;
+}
+
 .interest-area-content {
   display: flex;
   flex-direction: row;
@@ -1252,7 +1259,8 @@ footer {
   flex: 1;
 }
 
-.igac-image img {
+.igac-image img,
+.locate-image img {
   display: block;
   border: .1rem solid var(--border);
   border-radius: 3rem;
@@ -1279,7 +1287,8 @@ footer {
     flex: none;
   }
 
-  .igac-image {
+  .igac-image,
+  .locate-image {
     position: fixed;
     inset-block-start: 4.8rem;
     inset-inline-start: 52%;
@@ -1291,7 +1300,8 @@ footer {
     padding-block-end: 2.4rem;
   }
 
-  .igac-image img {
+  .igac-image img,
+  .locate-image img {
     width: auto;
     height: auto;
     max-width: 100%;
@@ -1332,13 +1342,15 @@ footer {
     padding: 2.4rem;
   }
 
-  .igac-image {
+  .igac-image,
+  .locate-image {
     width: 100%;
     max-width: 74rem;
     margin-inline: auto;
   }
 
-  .igac-image img {
+  .igac-image img,
+  .locate-image img {
     width: 100%;
     height: auto;
   }
@@ -1402,7 +1414,7 @@ footer {
 
 .client-name {
   font-family: var(--font-mono);
-  color: var(--terracotta);
+  color: var(--green);
 }
 
 .client-id,
